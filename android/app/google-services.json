@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1050340411778",
+    "project_id": "call-logger-51949",
+    "storage_bucket": "call-logger-51949.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050340411778:android:28882a9cf163fa5752679b",
+        "android_client_info": {
+          "package_name": "com.example.call_logger_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050340411778-7gh7ub6dvbbal3326goo4cpt0qlpmhj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6IxtJHL_UmciRuw8o-dXHy-LmeSUCWmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050340411778-7gh7ub6dvbbal3326goo4cpt0qlpmhj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
