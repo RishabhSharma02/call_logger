@@ -103,7 +103,7 @@ class _Call_logState extends State<Call_log> {
                             fontSize: 20,
                             fontWeight: FontWeight.w600),
                       )),
-                      trailing: Icon(
+                      trailing: PhosphorIcon(
                           callType[index] == "CallType.missed"
                               ? PhosphorIcons.fill.phoneX
                               : callType[index] == "CallType.outgoing"
@@ -133,9 +133,9 @@ class _Call_logState extends State<Call_log> {
           height: 75,
           destinations: [
             NavigationDestination(
-                icon: Icon(PhosphorIcons.regular.house), label: "Home"),
+                icon: PhosphorIcon(PhosphorIcons.regular.house), label: "Home"),
             NavigationDestination(
-                icon: Icon(PhosphorIcons.regular.note), label: "Notes")
+                icon: PhosphorIcon(PhosphorIcons.regular.note), label: "Notes")
           ],
           selectedIndex: index1,
           onDestinationSelected: (index1) => setState(() {

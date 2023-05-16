@@ -53,8 +53,9 @@ class _Notes_screenState extends State<Notes_screen> {
                                               children: [
                                                 Text(
                                                   note["phone_no"]
-                                                      .toString()
-                                                      .substring(0, 10),
+                                                      .toString().length>=15?note["phone_no"+"..."]
+                                                      .toString().substring(0,11):note["phone_no"]
+                                                      .toString(),
                                                   style:
                                                       GoogleFonts.nunito(
                                                           fontSize: 20,
@@ -76,10 +77,10 @@ class _Notes_screenState extends State<Notes_screen> {
 
                                   collection.doc(note.id).delete();
                                                     },
-                                                      child: Icon(
+                                                      child: PhosphorIcon(
                                                           PhosphorIcons
                                                               .regular
-                                                              .trash)),
+                                                              .trash,color: Colors.black,size: 30,)),
                                                 )
                                               ],
                                             ),
